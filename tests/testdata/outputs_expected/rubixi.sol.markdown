@@ -6,7 +6,7 @@
 - PC address: 1599
 
 ### Description
-In the function `'_function_0x4229616d'` a non-zero amount of Ether is sent to an address taken from storage slot 5.
+In the function `_function_0x4229616d` a non-zero amount of Ether is sent to an address taken from storage slot 5.
 There is a check on storage index 5. This storage slot can be written to by calling the function '_function_0x67f809e9'.
 
 There is a check on storage index 5. This storage slot can be written to by calling the function '_function_0x67f809e9'.
@@ -24,7 +24,7 @@ creator.send(feesToCollect)
 - PC address: 1940
 
 ### Description
-In the function `'_function_0x686f2c90'` a non-zero amount of Ether is sent to an address taken from storage slot 5.
+In the function `_function_0x686f2c90` a non-zero amount of Ether is sent to an address taken from storage slot 5.
 There is a check on storage index 5. This storage slot can be written to by calling the function '_function_0x67f809e9'.
 
 There is a check on storage index 5. This storage slot can be written to by calling the function '_function_0x67f809e9'.

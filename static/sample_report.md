@@ -97,7 +97,7 @@ balances[msg.sender] - _value
 - PC address: 1285
 
 ### Description
-In the function `'_function_0xe9874106'` the following predictable state variables are used to determine Ether recipient:
+In the function `_function_0xe9874106` the following predictable state variables are used to determine Ether recipient:
 - block.coinbase
 
 
