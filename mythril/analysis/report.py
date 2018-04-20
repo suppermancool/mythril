@@ -92,11 +92,8 @@ class Report:
         for key, issue in self.issues.items():
 
             if text == "":
-                text += "\n"
-            else:
-                text += "\n\n"
-            text += "# Analysis results for " + issue.filename + "\n\n"
-            text += "## " + issue.title + "\n\n"
+                text += "\n# Analysis results for " + issue.filename
+            text += "\n\n## " + issue.title + "\n\n"
             text += "- Type: " + issue.type + "\n"
 
             if len(issue.contract):
