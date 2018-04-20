@@ -92,7 +92,7 @@ class Report:
         for key, issue in self.issues.items():
 
             if text == "":
-                text += "\n# Analysis results for " + issue.filename
+                text += "# Analysis results for " + issue.filename
             text += "\n\n## " + issue.title + "\n\n"
             text += "- Type: " + issue.type + "\n"
 
