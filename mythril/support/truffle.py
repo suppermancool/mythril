@@ -112,7 +112,5 @@ def analyze_truffle_project(args):
                         print("# Analysis result for " + name + ":\n\n" + report.as_text())
                         isFirstTime = False
                     elif (args.outform == 'markdown'):
-                        if (isFirstTime == False):
-                            print("\n\n")
-                        print("# Analysis result for " + name + "\n\n" + report.as_markdown())
+                        print(report.as_markdown())
                         isFirstTime = False
