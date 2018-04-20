@@ -48,10 +48,7 @@ def analyze_truffle_project(args):
 
             if not len(issues):
                 if (args.outform == 'text' or args.outform == 'markdown'):
-                    if (isFirstTime == False):
-                        print("\n\n")
                     print("# Analysis result for " + name + "\n\nNo issues found.")
-                    isFirstTime = False
                 else:
                     result = {'contract': name, 'result': {'success': True, 'error': None, 'issues': []}}
                     print(json.dumps(result))
@@ -107,10 +104,6 @@ def analyze_truffle_project(args):
 
                 else:
                     if (args.outform == 'text'):
-                        if (isFirstTime == False):
-                            print("\n\n")
                         print("# Analysis result for " + name + ":\n\n" + report.as_text())
-                        isFirstTime = False
                     elif (args.outform == 'markdown'):
                         print(report.as_markdown())
-                        isFirstTime = False
